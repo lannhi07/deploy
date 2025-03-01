@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .profile {
+            max-width: 300px;
+            margin-right: 20px;
+        }
+        .profile img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .details {
+            text-align: left;
+            max-width: 400px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+        button {
+            background: #008cba;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #005f73;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nguyễn Văn A</h1>
+        <p>Web Developer | Software Engineer</p>
+    </header>
+    <section class="container">
+        <div class="profile">
+            <img src="avatar.jpg" alt="Profile Picture">
+            <h2>Giới Thiệu</h2>
+            <p>Tôi là một lập trình viên có kinh nghiệm trong phát triển web và ứng dụng.</p>
+        </div>
+        <div class="details">
+            <h2>Kinh Nghiệm</h2>
+            <ul>
+                <li>Công ty X - Web Developer (2022 - Hiện tại)</li>
+                <li>Công ty Y - Frontend Developer (2020 - 2022)</li>
+            </ul>
+            <h2>Kỹ Năng</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js, Vue.js</li>
+                <li>Node.js, PHP, MySQL</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>Liên hệ: <span id="email">nguyenvana@example.com</span></p>
+        <button onclick="showAlert()">Gửi Email</button>
+    </footer>
+    <script>
+        function showAlert() {
+            alert("Gửi email đến: " + document.getElementById("email").textContent);
+        }
+    </script>
+</body>
+</html>
