@@ -1,101 +1,47 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 20px;
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            padding: 20px;
-        }
-        .profile {
-            max-width: 300px;
-            margin-right: 20px;
-        }
-        .profile img {
-            width: 100%;
-            border-radius: 50%;
-        }
-        .details {
-            text-align: left;
-            max-width: 400px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            background: #ddd;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background: #333;
-            color: white;
-        }
-        button {
-            background: #008cba;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        button:hover {
-            background: #005f73;
-        }
-    </style>
+    <title>đây là web giới thiệu về Nhi</title>
 </head>
 <body>
-    <header>
-        <h1>Nguyễn Văn A</h1>
-        <p>Web Developer | Software Engineer</p>
-    </header>
-    <section class="container">
-        <div class="profile">
-            <img src="avatar.jpg" alt="Profile Picture">
-            <h2>Giới Thiệu</h2>
-            <p>Tôi là một lập trình viên có kinh nghiệm trong phát triển web và ứng dụng.</p>
+    <img width = "100" src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/475829167_1180347963425223_592869306100498965_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=pdTOGk-n-YgQ7kNvgHcUJPU&_nc_oc=AdjSTuFCTqxdwKaqQzRzYHxERqj7n9pPv-sCerp_bZ16xQNXs56WOfjp1cY-xdswMQo&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=AOTJS-tupvoZnDlurcVa-2q&oh=00_AYABTnmbXTqax79EyqIN-Jr55YHqFueqAAVkkscaIp1GfA&oe=67C3AE83" alt="đây nè">
+    <h1>Chào cậu, mình là Nhichankawaii:'></h1>
+    <div>
+        <p>sở thích của mik là:</p>
+        <ul>
+            <li>ăn</li>
+            <li>ngủ</li>
+            <li>bơi</li>
+            <li>động vật nứa</li>
+            <li>và ko thích học code tý nào</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>còn cậu thì sao?</h2>
+        <div> 
+            <label for="">điền tên của bạn</label>
+            <input type="text" place holder = "tên minh là" />
+
         </div>
-        <div class="details">
-            <h2>Kinh Nghiệm</h2>
-            <ul>
-                <li>Công ty X - Web Developer (2022 - Hiện tại)</li>
-                <li>Công ty Y - Frontend Developer (2020 - 2022)</li>
-            </ul>
-            <h2>Kỹ Năng</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React.js, Vue.js</li>
-                <li>Node.js, PHP, MySQL</li>
-            </ul>
+
+        <div>
+            <label for="">bạn có thích động vật hong?</label>
+            <select name="" id="">
+                <option value="">ấn vào đây để sung sướng>.< </option>
+                <option value="">cóa</option>
+                <option value="">cực kì lun</option>
+                <option value="">thích</option>
+            </select>
         </div>
-    </section>
-    <footer>
-        <p>Liên hệ: <span id="email">nguyenvana@example.com</span></p>
-        <button onclick="showAlert()">Gửi Email</button>
-    </footer>
-    <script>
-        function showAlert() {
-            alert("Gửi email đến: " + document.getElementById("email").textContent);
-        }
-    </script>
+       
+        <div>
+            <label for="">cậu cóa ngừi iu chua ~.~' </label>
+            <input type="radio"name = "gau"> chuaaaa       <input type = "radio" name = "gau" > roaii
+            
+        </div>
 </body>
+
 </html>
